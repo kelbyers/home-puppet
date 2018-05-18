@@ -5,3 +5,9 @@
 *.box
 
 # End of https://www.gitignore.io/api/vagrant
+
+# ignore large binary archives
+*.tar.gz
+
+# ignore ssh-config that changes based on dynamic ports
+ssh-config
