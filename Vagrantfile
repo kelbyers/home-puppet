@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
     c.persistent_storage.volgroupname = 'puppet_vg'
     # c.vm.network "forwarded_port", guest: 3000, host: 3000
     c.vm.network "public_network", ip: "192.168.50.10"
-    c.vm.hostname "puppet.rufus.crabdance.com"
+    c.vm.hostname = "puppet.rufus.crabdance.com"
   end
 
   # Disable automatic box update checking. If you disable this, then
